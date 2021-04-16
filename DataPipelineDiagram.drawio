@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T09:50:53.583Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="9C_x0_cNKqOdVrOtD-Eg" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T12:14:38.590Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="fvraFD31xKskiPUdbh_9" version="14.5.10" type="github">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="1282" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,11 +115,15 @@
         <mxCell id="M00Jkyyd9K6bwBccqDg0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-19" target="M00Jkyyd9K6bwBccqDg0-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="369" />
+              <mxPoint x="420" y="40" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="M00Jkyyd9K6bwBccqDg0-51" value="Data Sink" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M00Jkyyd9K6bwBccqDg0-50">
           <mxGeometry x="-0.0396" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="63" y="-58" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="M00Jkyyd9K6bwBccqDg0-19" value="KAFKA Cluster" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="1">
