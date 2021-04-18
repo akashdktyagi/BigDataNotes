@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T12:28:37.544Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="QHoxtspypSvMWBJ3-f4w" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T12:28:55.724Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="orfM5MwnFuDSH5slMyGl" version="14.5.10" type="github">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="2109" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -395,7 +395,7 @@
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-44" target="7txRCt_JXUs7RKzOq8Ak-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7txRCt_JXUs7RKzOq8Ak-44" value="3 Replicas with at least 24 hr retention.&lt;br&gt;Delivery gurantee to be set as &quot;at least once&quot;&lt;br&gt;so that no incident is missed; duplicates can be taken care at the next level which is transformation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-44" value="3 Replicas with at least 24 hr retention.&lt;br&gt;Delivery gurantee to be set as&amp;nbsp; &amp;nbsp;&quot;at least once&quot;&lt;br&gt;so that no incident is missed; duplicates can be taken care at the next level which is transformation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="1290" width="185" height="110" as="geometry" />
         </mxCell>
       </root>
