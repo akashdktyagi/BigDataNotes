@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T12:14:38.590Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="fvraFD31xKskiPUdbh_9" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T10:25:42.211Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="cDMvY_sJWNNRE965bYfH" version="14.5.10" type="github">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="1282" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -171,6 +171,137 @@
         </mxCell>
         <mxCell id="M00Jkyyd9K6bwBccqDg0-52" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;Maintaining Data lake in the form of AWS S3 to dump all the data from multiple streams and sources. This will not burden the Data ware house which will only have multi dimensional fact tables and dimension tables for easy consumption.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="840" y="-70" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-53" target="M00Jkyyd9K6bwBccqDg0-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-79" value="Statefull events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M00Jkyyd9K6bwBccqDg0-67">
+          <mxGeometry x="-0.2963" y="3" relative="1" as="geometry">
+            <mxPoint x="12" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-53" target="M00Jkyyd9K6bwBccqDg0-80">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="980" />
+              <mxPoint x="283" y="980" />
+              <mxPoint x="283" y="1023" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-53" value="InformationAPP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-54" value="&lt;h1&gt;Policing System&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="780" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-55" target="M00Jkyyd9K6bwBccqDg0-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-55" value="CockroachDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="328" y="860" width="102" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-56" target="M00Jkyyd9K6bwBccqDg0-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-56" value="Law officer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-61" target="M00Jkyyd9K6bwBccqDg0-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-61" value="Survivour" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="910" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-62" target="M00Jkyyd9K6bwBccqDg0-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="1040" />
+              <mxPoint x="90" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-62" value="Volunteer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1010" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-66" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Why CockroachDB?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Allows Horizontal Scaling;Can resolve Slowness;&lt;/div&gt;&lt;div&gt;2. Automatic Fail Over due to distributed SQL&lt;/div&gt;&lt;div&gt;3. Immediate Consistency&lt;/div&gt;&lt;div&gt;4. RDBMS like Structure, so impl will higher adaptability among the developers.&lt;/div&gt;&lt;div&gt;5. Key Value store is inherently faster, so should solve the slowness issue.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="665" width="310" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-69" target="M00Jkyyd9K6bwBccqDg0-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="890" />
+              <mxPoint x="770" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-69" value="CockroachDB Data Ingestion Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-71" target="M00Jkyyd9K6bwBccqDg0-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-71" value="Data Lake&lt;br&gt;(AWS S3)" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="840" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-73" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;- Maintaining Data lake in the form of AWS S3 to dump all the data from multiple streams and sources.&amp;nbsp;&lt;/p&gt;&lt;p&gt;- This will not burden the Data ware house which will only have multi dimensional fact tables and dimension tables for easy consumption.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="983" y="840" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-75" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Why AWS S3?&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Making use of AWS S3 instead of HDFS since AWS S3 is cloud managed service and is elastic in nature. Since, we are looking at lot of data being generated from live feeds of camera, audio, files being generated; it is better to have a scalable storage which requires minimum handling of the servers.&lt;/p&gt;&lt;p&gt;Other than that, S3 can be secured better compared to typical on premise servers. AWS provides, firewalls, encryption at rest as well as transit; which are resource intensive when it comes to managing it n HDFS&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="640" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-80" target="M00Jkyyd9K6bwBccqDg0-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-80" value="Splunk/Logs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="335" y="970" width="75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-82" value="Need to Store log data&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1060" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-85" target="M00Jkyyd9K6bwBccqDg0-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="749" y="1010" />
+              <mxPoint x="749" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-85" value="Logs Ingestion Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-89" value="IncidentAPP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-90" value="Datawarehouse&lt;br&gt;(AWS Redshift)" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="842" y="1180" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-92" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Schema of Fact Tables and Dimension Tables has to be defined.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;We can go with simple Star Schema for DataWare house.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;This will help us getting results about the queries of incidents, across regions. This solves the IncidentAPP issues about slowness in getting incident related analytical insights.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="962" y="1169" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-93" target="M00Jkyyd9K6bwBccqDg0-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-93" value="Processing&lt;br&gt;Spark" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="842" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-96" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;- Processing is to be done here to generate fact and dimension tables.&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Data generated from IncidentAPP has to be processed and re-arranged to give faster query results for number of incidents, and different fact table and dimension table arrangements.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1000" width="313" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-97" value="&lt;b&gt;Fact Table&lt;br&gt;&lt;/b&gt;IncidentsNumbers&lt;br&gt;Region" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-98" target="M00Jkyyd9K6bwBccqDg0-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-98" value="&lt;b&gt;DimensionTable&lt;/b&gt;&lt;br&gt;Country&lt;br&gt;Cities&lt;br&gt;Pincocde" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-99" target="M00Jkyyd9K6bwBccqDg0-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-99" value="&lt;b&gt;DimensionTable&lt;/b&gt;&lt;br&gt;Incident_ID&lt;br&gt;Incident_Details&lt;br&gt;Incident_Victim&lt;br&gt;Incident_Preprator" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1210" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
