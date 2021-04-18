@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T12:23:16.814Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="gcZ2KEw-QGi4M5PoWg5y" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T12:28:37.544Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="QHoxtspypSvMWBJ3-f4w" version="14.5.10" type="github">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="2109" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -341,7 +341,7 @@
           <mxGeometry x="248" y="1350" width="102" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-4" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Using DocumentDB here because:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Benefit from MongoDB no SQL inherent horizontal scaling issues.&lt;/div&gt;&lt;div&gt;2. IncidentAPP can have lot of data from various sources; so it could really require varied attributes for different incidents. So schema less is advantages here.&lt;/div&gt;&lt;div&gt;3. MongoDB can also store unstructured data&amp;nbsp; and files , and incident app apparantly generates lot of unstrucured data as well.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1280" width="313" height="190" as="geometry" />
+          <mxGeometry x="179.5" y="1440" width="313" height="190" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-82" target="M00Jkyyd9K6bwBccqDg0-80">
           <mxGeometry relative="1" as="geometry" />
@@ -391,6 +391,12 @@
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-39" value="ElasticSearch ELK&lt;br&gt;For Real time Incidents Visualization" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="1335" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-44" target="7txRCt_JXUs7RKzOq8Ak-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-44" value="3 Replicas with at least 24 hr retention.&lt;br&gt;Delivery gurantee to be set as &quot;at least once&quot;&lt;br&gt;so that no incident is missed; duplicates can be taken care at the next level which is transformation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1290" width="185" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
