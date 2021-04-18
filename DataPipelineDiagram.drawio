@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T11:16:00.531Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="8yMe-TdJPHKxCQqLmKBQ" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T11:59:19.110Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="_iQJSzMnYZ-rvj48Rbgx" version="14.5.10" type="github">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="2109" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -282,6 +282,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.783;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-90" target="7txRCt_JXUs7RKzOq8Ak-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="1291" />
+              <mxPoint x="940" y="1390" />
+              <mxPoint x="1160" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M00Jkyyd9K6bwBccqDg0-90" value="Datawarehouse&lt;br&gt;(AWS Redshift)" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="842" y="1165" width="120" height="130" as="geometry" />
         </mxCell>
@@ -332,13 +341,11 @@
         <mxCell id="M00Jkyyd9K6bwBccqDg0-82" value="&lt;b&gt;CollectLogs:&lt;/b&gt; Need to Store log data as it is advisable to collect all the data and dump in data lake so that later it can be made use of for anayltics lilke how many users using it , at what point in time and for how long for each function. This may not be necessary for now but later can be usefull; so better to collect and dump in data lake." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="84" y="1040" width="266" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="7txRCt_JXUs7RKzOq8Ak-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="840" y="1230" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-8" target="7txRCt_JXUs7RKzOq8Ak-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-8" value="Kafka Cluster" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="1180" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-20" target="M00Jkyyd9K6bwBccqDg0-89">
           <mxGeometry relative="1" as="geometry" />
@@ -349,8 +356,17 @@
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-23" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;This API is required to fetch the Query details related to incidents.&amp;nbsp;&lt;/div&gt;&lt;div&gt;In the Dataware house, since we have created Fact Tables linked with Dimension tables, it will be pretty speedy to get these details and display in the app.&lt;/div&gt;&lt;div&gt;A new microservice can be used, which Incident Front end App will call when ever it requires data.&amp;nbsp;&lt;/div&gt;&lt;div&gt;This approach should be pretty fast.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Another reason it is advisable to have this approach is because this will &lt;b&gt;not burden the production DB&lt;/b&gt; in this case MongoDB. These incidents related queries are aggregated queries can directly be handled from Dataware house where they are already processed and managed in multidimensions using fact and dimension tables.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="1470" width="420" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="7txRCt_JXUs7RKzOq8Ak-26" value="Send incident related information to data warehouse for processing, so that incident related data can be computed and arranged for analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="1120" width="270" height="49" as="geometry" />
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-26" value="Send incident related information to data warehouse at real time for processing, so that incident related data can be computed and arranged for analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1141" width="270" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-27" value="Visualization" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1500" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-29" target="M00Jkyyd9K6bwBccqDg0-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-29" value="Spark Processing and Transformation" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
