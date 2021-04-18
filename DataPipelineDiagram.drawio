@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T11:59:26.369Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="h4aSw9HdrkFG5eUzI9na" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T12:13:30.247Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="ewnXiT8BmvZ1hiSv2X-C" version="14.5.10" type="github">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="2109" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -240,6 +240,14 @@
         <mxCell id="M00Jkyyd9K6bwBccqDg0-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M00Jkyyd9K6bwBccqDg0-71" target="M00Jkyyd9K6bwBccqDg0-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-71" target="7txRCt_JXUs7RKzOq8Ak-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="980" />
+              <mxPoint x="810" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M00Jkyyd9K6bwBccqDg0-71" value="Data Lake&lt;br&gt;(AWS S3)" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="827" y="840" width="150" height="120" as="geometry" />
         </mxCell>
@@ -341,8 +349,14 @@
         <mxCell id="M00Jkyyd9K6bwBccqDg0-82" value="&lt;b&gt;CollectLogs:&lt;/b&gt; Need to Store log data as it is advisable to collect all the data and dump in data lake so that later it can be made use of for anayltics lilke how many users using it , at what point in time and for how long for each function. This may not be necessary for now but later can be usefull; so better to collect and dump in data lake." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="84" y="1040" width="266" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="7txRCt_JXUs7RKzOq8Ak-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-8" target="7txRCt_JXUs7RKzOq8Ak-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.7;entryDx=0;entryDy=0;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-8" target="M00Jkyyd9K6bwBccqDg0-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="1100" />
+              <mxPoint x="770" y="1100" />
+              <mxPoint x="770" y="924" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-8" value="Kafka Cluster" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1200" width="120" height="60" as="geometry" />
@@ -357,16 +371,25 @@
           <mxGeometry x="550" y="1470" width="420" height="250" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-26" value="Send incident related information to data warehouse at real time for processing, so that incident related data can be computed and arranged for analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1141" width="270" height="49" as="geometry" />
+          <mxGeometry x="420" y="1135.5" width="270" height="49" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-27" value="Visualization" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="1070" y="1500" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="7txRCt_JXUs7RKzOq8Ak-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-29" target="M00Jkyyd9K6bwBccqDg0-90">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.615;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-29" target="M00Jkyyd9K6bwBccqDg0-90">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="1205" />
+              <mxPoint x="822" y="1205" />
+              <mxPoint x="822" y="1245" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="7txRCt_JXUs7RKzOq8Ak-29" value="Spark Processing and Transformation" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="1200" width="120" height="60" as="geometry" />
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-29" value="Spark Processing and Transformation for incidents" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="1124.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-33" value="Transformations like handling NaN values etc&lt;br&gt;Analog Analytics&lt;br&gt;Text analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="683" y="1200" width="137" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
