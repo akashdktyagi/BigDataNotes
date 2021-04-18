@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T12:28:55.724Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="orfM5MwnFuDSH5slMyGl" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T12:31:05.951Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="q1L0B7IyZ1IfJlreHOfQ" version="14.5.10" type="github">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="2109" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,10 +280,11 @@
         <mxCell id="M00Jkyyd9K6bwBccqDg0-89" value="Incident APP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="1370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7txRCt_JXUs7RKzOq8Ak-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-90" target="7txRCt_JXUs7RKzOq8Ak-20">
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-90" target="7txRCt_JXUs7RKzOq8Ak-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="902" y="1565" />
+              <mxPoint x="480" y="1565" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -340,8 +341,11 @@
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-1" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="248" y="1350" width="102" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-4" target="7txRCt_JXUs7RKzOq8Ak-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-4" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Using DocumentDB here because:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Benefit from MongoDB no SQL inherent horizontal scaling issues.&lt;/div&gt;&lt;div&gt;2. IncidentAPP can have lot of data from various sources; so it could really require varied attributes for different incidents. So schema less is advantages here.&lt;/div&gt;&lt;div&gt;3. MongoDB can also store unstructured data&amp;nbsp; and files , and incident app apparantly generates lot of unstrucured data as well.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="179.5" y="1440" width="313" height="190" as="geometry" />
+          <mxGeometry x="140" y="1470" width="313" height="190" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-82" target="M00Jkyyd9K6bwBccqDg0-80">
           <mxGeometry relative="1" as="geometry" />
@@ -367,10 +371,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-20" value="IncidentsQueryAPI for Aggregate Queries" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="1520" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7txRCt_JXUs7RKzOq8Ak-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.033;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-23" target="7txRCt_JXUs7RKzOq8Ak-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-23" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;This API is required to fetch the Query details related to incidents.&amp;nbsp;&lt;/div&gt;&lt;div&gt;In the Dataware house, since we have created Fact Tables linked with Dimension tables, it will be pretty speedy to get these details and display in the app.&lt;/div&gt;&lt;div&gt;A new microservice can be used, which Incident Front end App will call when ever it requires data.&amp;nbsp;&lt;/div&gt;&lt;div&gt;This approach should be pretty fast.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Another reason it is advisable to have this approach is because this will &lt;b&gt;not burden the production DB&lt;/b&gt; in this case MongoDB. These incidents related queries are aggregated queries can directly be handled from Dataware house where they are already processed and managed in multidimensions using fact and dimension tables.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1470" width="420" height="250" as="geometry" />
+          <mxGeometry x="590" y="1620" width="420" height="250" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-26" value="Send incident related information to data warehouse at real time for processing, so that incident related data can be computed and arranged for analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="388" y="1145.5" width="270" height="49" as="geometry" />
