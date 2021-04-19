@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T06:00:29.677Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="XMK_aX-hRQBHBziY2XWf" version="14.5.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-19T13:51:11.652Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="evm4MPOx_CP-uVbGm1oh" version="14.5.10" type="github" pages="3">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -270,6 +270,73 @@
       <root>
         <mxCell id="3UqN9f_yNtxF5DANuFR4-0" />
         <mxCell id="3UqN9f_yNtxF5DANuFR4-1" parent="3UqN9f_yNtxF5DANuFR4-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nAH0pt2wdRR5eKk2N3gx" name="Kafka">
+    <mxGraphModel dx="1282" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-0" />
+        <mxCell id="jCGFnb368hU8gwx-G9o3-1" parent="jCGFnb368hU8gwx-G9o3-0" />
+        <mxCell id="jCGFnb368hU8gwx-G9o3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jCGFnb368hU8gwx-G9o3-1" source="jCGFnb368hU8gwx-G9o3-2" target="jCGFnb368hU8gwx-G9o3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jCGFnb368hU8gwx-G9o3-1" source="jCGFnb368hU8gwx-G9o3-2" target="jCGFnb368hU8gwx-G9o3-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jCGFnb368hU8gwx-G9o3-1" source="jCGFnb368hU8gwx-G9o3-2" target="jCGFnb368hU8gwx-G9o3-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="370" />
+              <mxPoint x="534" y="438" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jCGFnb368hU8gwx-G9o3-1" source="jCGFnb368hU8gwx-G9o3-2" target="jCGFnb368hU8gwx-G9o3-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="409" />
+              <mxPoint x="250" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jCGFnb368hU8gwx-G9o3-1" source="jCGFnb368hU8gwx-G9o3-2" target="jCGFnb368hU8gwx-G9o3-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jCGFnb368hU8gwx-G9o3-1" source="jCGFnb368hU8gwx-G9o3-2" target="jCGFnb368hU8gwx-G9o3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-2" value="kafka Cluster" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;shadow=1;" vertex="1" parent="jCGFnb368hU8gwx-G9o3-1">
+          <mxGeometry x="375" y="310" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-3" value="&lt;h1&gt;Partition&lt;/h1&gt;&lt;p&gt;1. Partion is to do with performance, more partition better the write and read operations.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="jCGFnb368hU8gwx-G9o3-1">
+          <mxGeometry x="200" y="60" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-5" value="&lt;h1&gt;Topic&lt;/h1&gt;&lt;p&gt;1. Labelling of the type of data stream. like Incidents&lt;/p&gt;&lt;p&gt;2. Multiple events in the same topic is not a good idea, because then all consumers will not be able to choose, every one will get every thing and consumers will be flooded with lot of irrelevant information.&lt;/p&gt;&lt;p&gt;3. Also, very atomic level Topics are also curse to the performance of the cluster. Need to find the write way of categorising.&amp;nbsp;&lt;/p&gt;&lt;p&gt;4. There can be few thumb rules to follow:&lt;/p&gt;&lt;p&gt;4.a:&amp;nbsp;&lt;span&gt;Thumb rule: topic == collection of events of the same type, this follows the SQL table rule, all same type of entity record having same schema in the same table.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;4.b: If the events are sensitive to ordering, they should also be kept together rather than stripped apart prematurely.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="jCGFnb368hU8gwx-G9o3-1">
+          <mxGeometry x="500" y="-20" width="400" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-8" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;markot&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&lt;b&gt;How to create topics&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;markot&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; font-style: normal ; font-weight: 300 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;: &lt;br&gt;The common wisdom&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;markot&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; font-style: normal ; font-weight: 300 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;&amp;nbsp;seems to be: put all events of the same type in the same topic, and use different topics for different event types. That line of thinking is reminiscent of relational databases, where a table is a collection of records with the same type (i.e. the same set of columns), so we have an analogy between a relational table and a Kafka topic.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="jCGFnb368hU8gwx-G9o3-1">
+          <mxGeometry x="630" y="378" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-10" value="Ordering requirements also need to be taken care of, we need to keep events in the same topic or partition which are ordering sensitive; like customer created and customerChangedAddress has to be in the same topic, because ordering matters here." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="jCGFnb368hU8gwx-G9o3-1">
+          <mxGeometry x="110" y="440" width="280" height="110" as="geometry" />
+        </mxCell>
+        <UserObject label="https://www.confluent.io/blog/put-several-event-types-kafka-topic/" link="https://www.confluent.io/blog/put-several-event-types-kafka-topic/" id="jCGFnb368hU8gwx-G9o3-12">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="jCGFnb368hU8gwx-G9o3-1">
+            <mxGeometry x="630" y="334" width="370" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jCGFnb368hU8gwx-G9o3-14" value="&lt;b style=&quot;box-sizing: border-box ; font-weight: bold ; color: rgb(0 , 0 , 0) ; font-family: &amp;#34;markot&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255)&quot;&gt;any events that need to stay in a fixed order must go in the same topic&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="jCGFnb368hU8gwx-G9o3-1">
+          <mxGeometry x="470" y="520" width="550" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
