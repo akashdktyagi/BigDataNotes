@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T05:28:07.301Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="9dwuq0IsYQevpvaq1D3K" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-19T05:32:12.758Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="Z6SDCLFqVYpckpEceuF-" version="14.5.10" type="github" pages="2">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="2109" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -408,6 +408,14 @@
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-49" value="&lt;h1&gt;Other Considerations:&lt;/h1&gt;&lt;p&gt;Auditing: How close to the reality our data analysis is&lt;/p&gt;&lt;p&gt;Security: Masking, Authentication&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="1790" width="310" height="120" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sokzipqtzOe1h6msOYng" name="DBChoices">
+    <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="3UqN9f_yNtxF5DANuFR4-0" />
+        <mxCell id="3UqN9f_yNtxF5DANuFR4-1" parent="3UqN9f_yNtxF5DANuFR4-0" />
       </root>
     </mxGraphModel>
   </diagram>
