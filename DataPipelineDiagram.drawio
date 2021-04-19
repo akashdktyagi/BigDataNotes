@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T05:06:38.354Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="gZWpv2Ie8Szt4Jj2WyPe" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-19T05:13:10.897Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="nMqWZM5wQPVM5b-HuQNM" version="14.5.10" type="github">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="2109" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,7 +297,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="M00Jkyyd9K6bwBccqDg0-90" value="Datawarehouse&lt;br&gt;(AWS Redshift)" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-90" value="Datawarehouse&lt;br&gt;ColumnarDB&lt;br&gt;(AWS Redshift /Cassandra)&lt;br&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="842" y="1165" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-92" target="M00Jkyyd9K6bwBccqDg0-97">
