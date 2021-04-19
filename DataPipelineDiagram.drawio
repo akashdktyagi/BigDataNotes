@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T05:48:09.646Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="KNWAG17cqKEVgU1VvCj8" version="14.5.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-19T06:00:29.677Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="XMK_aX-hRQBHBziY2XWf" version="14.5.10" type="github" pages="2">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,6 +239,28 @@
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-49" value="&lt;h1&gt;Other Considerations:&lt;/h1&gt;&lt;p&gt;Auditing: How close to the reality our data analysis is&lt;/p&gt;&lt;p&gt;Security: Masking, Authentication&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1230" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="II3lYOn81gBue7E85nwl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="II3lYOn81gBue7E85nwl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="II3lYOn81gBue7E85nwl-1" value="ConnectAPP" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="II3lYOn81gBue7E85nwl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="II3lYOn81gBue7E85nwl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="II3lYOn81gBue7E85nwl-3" value="SparkStreaming" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="428" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="II3lYOn81gBue7E85nwl-4" value="For live Analysis of Data&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1500" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="II3lYOn81gBue7E85nwl-6" value="Raise Alarm" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
