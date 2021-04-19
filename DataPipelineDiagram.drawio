@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T05:34:02.547Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="V37StIne7Uvn4pTIlc62" version="14.5.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-19T05:48:09.646Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="KNWAG17cqKEVgU1VvCj8" version="14.5.10" type="github" pages="2">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="M00Jkyyd9K6bwBccqDg0-90" value="Datawarehouse&lt;br&gt;ColumnarDB&lt;br&gt;(AWS Redshift /Cassandra)&lt;br&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-90" value="Datawarehouse&lt;br&gt;ColumnarDB&lt;br&gt;(AWS Redshift /Cassandra)" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="942" y="605" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M00Jkyyd9K6bwBccqDg0-92" target="M00Jkyyd9K6bwBccqDg0-97">
@@ -141,7 +141,7 @@
         <mxCell id="M00Jkyyd9K6bwBccqDg0-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M00Jkyyd9K6bwBccqDg0-93" target="M00Jkyyd9K6bwBccqDg0-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M00Jkyyd9K6bwBccqDg0-93" value="Processing&lt;br&gt;Spark" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-93" value="Processing/ETL&lt;br&gt;(Spark/AWS Glue)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="942" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M00Jkyyd9K6bwBccqDg0-96" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;- Processing is to be done here to generate fact and dimension tables.&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Data generated from IncidentAPP has to be processed and re-arranged to give faster query results for number of incidents, and different fact table and dimension table arrangements.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
