@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T12:02:27.675Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="3BtblHsdZyaeHKs1Qpwy" version="14.5.10" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-04-20T12:07:22.036Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="z_ActVNdi9Qx4F4PNpaX" version="14.5.10" type="github" pages="6">
   <diagram name="ExamCopy" id="APzfpvWsl1Z9vvSuLqmT">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -284,9 +284,6 @@
       <root>
         <mxCell id="iIx44UBuzAUmf-lIb9Sw-0" />
         <mxCell id="iIx44UBuzAUmf-lIb9Sw-1" parent="iIx44UBuzAUmf-lIb9Sw-0" />
-        <mxCell id="iIx44UBuzAUmf-lIb9Sw-6" value="&lt;h1&gt;Policing System - Data Pipeline&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="iIx44UBuzAUmf-lIb9Sw-1">
-          <mxGeometry x="35" y="30" width="370" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="iIx44UBuzAUmf-lIb9Sw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="iIx44UBuzAUmf-lIb9Sw-1" source="iIx44UBuzAUmf-lIb9Sw-29" target="iIx44UBuzAUmf-lIb9Sw-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -426,14 +423,32 @@
         <mxCell id="iIx44UBuzAUmf-lIb9Sw-75" value="Kafka Streams&amp;nbsp; do not have high latency, so if latency is the issue than always use Kafka Streams but integration with other systems is not very good, so use Spark Streaming if latency is not of much concern." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="iIx44UBuzAUmf-lIb9Sw-1">
           <mxGeometry x="740" y="740" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="iIx44UBuzAUmf-lIb9Sw-76" value="Incident APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iIx44UBuzAUmf-lIb9Sw-1">
-          <mxGeometry x="100" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="JeV6xTJhXTSrGv415qPN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iIx44UBuzAUmf-lIb9Sw-1" source="iIx44UBuzAUmf-lIb9Sw-76" target="iIx44UBuzAUmf-lIb9Sw-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIx44UBuzAUmf-lIb9Sw-76" value="Incidents each with Different Fields and Attribute types" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iIx44UBuzAUmf-lIb9Sw-1">
+          <mxGeometry x="110" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JeV6xTJhXTSrGv415qPN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iIx44UBuzAUmf-lIb9Sw-1" source="iIx44UBuzAUmf-lIb9Sw-77" target="iIx44UBuzAUmf-lIb9Sw-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JeV6xTJhXTSrGv415qPN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="iIx44UBuzAUmf-lIb9Sw-1" source="iIx44UBuzAUmf-lIb9Sw-77" target="JeV6xTJhXTSrGv415qPN-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iIx44UBuzAUmf-lIb9Sw-77" value="Cassandra" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="iIx44UBuzAUmf-lIb9Sw-1">
-          <mxGeometry x="345.5" y="240" width="102" height="80" as="geometry" />
+          <mxGeometry x="363" y="150" width="102" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iIx44UBuzAUmf-lIb9Sw-78" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;1. Cassandra is a Columnar DB and this should handle the aggregated queries results and is very fast.&lt;/p&gt;&lt;p&gt;2. Can handle unstructured data like audio and videos&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="iIx44UBuzAUmf-lIb9Sw-1">
-          <mxGeometry x="570" y="190" width="270" height="200" as="geometry" />
+        <mxCell id="iIx44UBuzAUmf-lIb9Sw-78" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;1. Cassandra is a Columnar DB and this should handle the aggregated queries results and is very fast.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. Can handle unstructured data like audio and videos with ease.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. Different Incidents can have different types of data and fields attributes with varied evidence types. Schema on Read can be handled easily&lt;/b&gt;.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="iIx44UBuzAUmf-lIb9Sw-1">
+          <mxGeometry x="553" y="50" width="330" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JeV6xTJhXTSrGv415qPN-0" value="&lt;h1 style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;CAP Theoram Consideration&lt;/h1&gt;&lt;p style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;b&gt;-It has master less archs. i.e. read write can happen from any node.&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;-Casandra is a AP system, this will make Incident System Available at all times&lt;br&gt;&lt;/b&gt;&lt;p style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;b&gt;- However, system will not have immediate consistency as it will take some time to copy the state of DB from one node to another. But it has a promise of eventual consistency. For incident App I am envisioning Availabilty as&amp;nbsp; more important then Strong Consistency.&lt;/b&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="iIx44UBuzAUmf-lIb9Sw-1">
+          <mxGeometry x="170" y="260" width="370" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JeV6xTJhXTSrGv415qPN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="iIx44UBuzAUmf-lIb9Sw-1" source="JeV6xTJhXTSrGv415qPN-4" target="iIx44UBuzAUmf-lIb9Sw-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JeV6xTJhXTSrGv415qPN-4" value="Videos/Audio/Unstructured data" style="ellipse;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="iIx44UBuzAUmf-lIb9Sw-1">
+          <mxGeometry x="60" y="130" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
