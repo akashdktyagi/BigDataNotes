@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T12:07:22.036Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="z_ActVNdi9Qx4F4PNpaX" version="14.5.10" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-04-20T12:59:07.800Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="38D8mA4jfcAnvAIy_iBT" version="14.5.10" type="github" pages="7">
   <diagram name="ExamCopy" id="APzfpvWsl1Z9vvSuLqmT">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -275,6 +275,285 @@
         </mxCell>
         <mxCell id="8zOpQxGvA1TDJtgS3TWw-5" value="Kafka Streams&amp;nbsp; do not have high latency, so if latency is the issue than always use Kafka Streams but integration with other systems is not very good, so use Spark Streaming if latency is not of much concern." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
           <mxGeometry x="880" y="840" width="250" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of ExamCopy" id="vmi9PIpB65Rq1DwxZP_G">
+    <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-0" />
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-1" parent="lOcqwodJk-4RlRtHzEKS-0" />
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-5" target="lOcqwodJk-4RlRtHzEKS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-3" value="Statefull events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lOcqwodJk-4RlRtHzEKS-2">
+          <mxGeometry x="-0.2963" y="3" relative="1" as="geometry">
+            <mxPoint x="12" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="317" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-5" value="InformationAPP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="210" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-6" value="&lt;h1&gt;Policing System - Data Pipeline&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="35" y="30" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-9" target="lOcqwodJk-4RlRtHzEKS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-8" value="CockroachDB&lt;br&gt;Kafka&lt;br&gt;Connector" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lOcqwodJk-4RlRtHzEKS-7">
+          <mxGeometry x="-0.1467" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-9" value="CockroachDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="428" y="300" width="102" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-11" target="lOcqwodJk-4RlRtHzEKS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-11" value="Law officer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="50" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-13" target="lOcqwodJk-4RlRtHzEKS-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="380" />
+              <mxPoint x="100" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-13" value="Survivour" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="40" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-15" target="lOcqwodJk-4RlRtHzEKS-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="480" />
+              <mxPoint x="130" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-15" value="Volunteer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="40" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-16" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Why CockroachDB?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Allows Horizontal Scaling;Can resolve Slowness;&lt;/div&gt;&lt;div&gt;2. Automatic Fail Over due to distributed SQL&lt;/div&gt;&lt;div&gt;3. Immediate Consistency&lt;/div&gt;&lt;div&gt;4. RDBMS like Structure, so impl will higher adaptability among the developers.&lt;/div&gt;&lt;div&gt;5. Key Value store is inherently faster, so should solve the slowness issue.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="400" y="105" width="310" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-18" target="lOcqwodJk-4RlRtHzEKS-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="330" />
+              <mxPoint x="870" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-18" value="Kafka Cluster" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="680" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1002" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-20" value="Data Lake&lt;br&gt;(AWS S3)" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="927" y="280" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-21" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;- Maintaining Data lake in the form of AWS S3 to dump all the data from multiple streams and sources.&amp;nbsp;&lt;/p&gt;&lt;p&gt;- This will not burden the Data ware house which will only have multi dimensional fact tables and dimension tables for easy consumption.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="1083" y="280" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-22" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Why AWS S3?&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Making use of AWS S3 instead of HDFS since AWS S3 is cloud managed service and is elastic in nature. Since, we are looking at lot of data being generated from live feeds of camera, audio, files being generated; it is better to have a scalable storage which requires minimum handling of the servers.&lt;/p&gt;&lt;p&gt;Other than that, S3 can be secured better compared to typical on premise servers. AWS provides, firewalls, encryption at rest as well as transit; which are resource intensive when it comes to managing it n HDFS&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="790" y="80" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-24" target="lOcqwodJk-4RlRtHzEKS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-24" value="Splunk/Logs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="517.5" y="410" width="75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-26" target="lOcqwodJk-4RlRtHzEKS-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="849" y="450" />
+              <mxPoint x="849" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-26" value="Logs Ingestion Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="690" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-29" target="lOcqwodJk-4RlRtHzEKS-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-29" value="Incident APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="130" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-32" target="lOcqwodJk-4RlRtHzEKS-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1002" y="1005" />
+              <mxPoint x="580" y="1005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-32" value="Datawarehouse&lt;br&gt;ColumnarDB&lt;br&gt;(AWS Redshift /Cassandra)" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="942" y="605" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-34" target="lOcqwodJk-4RlRtHzEKS-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-34" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Schema of Fact Tables and Dimension Tables has to be defined.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;We can go with simple Star Schema for DataWare house.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;This will help us getting results about the queries of incidents, across regions. This solves the IncidentAPP issues about slowness in getting incident related analytical insights.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="1062" y="609" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-38" value="&lt;b&gt;Fact Table&lt;br&gt;&lt;/b&gt;IncidentsNumbers&lt;br&gt;Region" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="1130" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-40" target="lOcqwodJk-4RlRtHzEKS-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-40" value="&lt;b&gt;DimensionTable&lt;/b&gt;&lt;br&gt;Country&lt;br&gt;Cities&lt;br&gt;Pincocde" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="1250" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-42" target="lOcqwodJk-4RlRtHzEKS-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-42" value="&lt;b&gt;DimensionTable&lt;/b&gt;&lt;br&gt;Incident_ID&lt;br&gt;Incident_Details&lt;br&gt;Incident_Victim&lt;br&gt;Incident_Preprator" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="1115" y="1040" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-45" target="lOcqwodJk-4RlRtHzEKS-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-44" value="Kafka Connector &lt;br&gt;for MongoDB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lOcqwodJk-4RlRtHzEKS-43">
+          <mxGeometry x="0.3889" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-45" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="348" y="790" width="102" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-47" target="lOcqwodJk-4RlRtHzEKS-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-47" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Using DocumentDB here because:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;1. Benefit from MongoDB no SQL inherent horizontal scaling issues.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2. IncidentAPP can have lot of data from various sources; so it could really require varied attributes for different incidents. So schema less is advantages here.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;3. MongoDB can also store unstructured data&amp;nbsp; and files , and incident app apparantly generates lot of unstrucured data as well.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;4. It provides strong Consistency, so that means we do not run the risk of outdated incident information.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="240" y="910" width="313" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" target="lOcqwodJk-4RlRtHzEKS-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-53" target="lOcqwodJk-4RlRtHzEKS-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-53" value="Kafka Cluster" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="610" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-55" target="lOcqwodJk-4RlRtHzEKS-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-55" value="IncidentsQueryAPI for Aggregate Queries" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="480" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.033;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" target="lOcqwodJk-4RlRtHzEKS-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="1140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-58" value="Send incident related information to data warehouse at real time for processing, so that incident related data can be computed and arranged for analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="488" y="585.5" width="270" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-62" target="lOcqwodJk-4RlRtHzEKS-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="865" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-1" value="Option 2-Aggregated data can also be directly saved in MongoDB for faster query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j2APJOWUcB2eC5ujGrEf-0">
+          <mxGeometry x="0.1099" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-62" value="KafkaStreams/&lt;br&gt;SparkStreams Live data analysis" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="780" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-63" value="Transformations like handling NaN values etc&lt;br&gt;Analog Analytics&lt;br&gt;Text analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="783" y="580" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-66" target="lOcqwodJk-4RlRtHzEKS-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-66" value="3 Replicas with at least 24 hr retention.&lt;br&gt;Delivery gurantee to be set as&amp;nbsp; &amp;nbsp;&quot;at least once&quot;&lt;br&gt;so that no incident is missed; duplicates can be taken care at the next level which is transformation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="480" y="730" width="185" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-69" target="lOcqwodJk-4RlRtHzEKS-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-69" value="ConnectAPP" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="120" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="lOcqwodJk-4RlRtHzEKS-71" target="j2APJOWUcB2eC5ujGrEf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lOcqwodJk-4RlRtHzEKS-71" value="AWS Kafka Managed Serve" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="440" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="j2APJOWUcB2eC5ujGrEf-2" target="j2APJOWUcB2eC5ujGrEf-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="1460" />
+              <mxPoint x="925" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQOeL2surBHHwKXs4Aca-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="j2APJOWUcB2eC5ujGrEf-2" target="dQOeL2surBHHwKXs4Aca-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-2" value="Spark Stream / Kafka Stream" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="650" y="1340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-6" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;Analyse the patterns here at real time.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Check concurrently the patterns, by validating it the State Data.&lt;/div&gt;&lt;div&gt;Raise the alarm&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="790" y="1340" width="225" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-8" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;Will make use of AWS kafka managed service instead of Cloud watch,&lt;/div&gt;&lt;div&gt;Cloud watch is more fit for logs etc.&lt;/div&gt;&lt;div&gt;For scalable and efficient, time sensitive event streaming we need to make use of kafka.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="330" y="1434" width="245" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-9" value="State Data&lt;br&gt;Columnar DB&lt;br&gt;AWS Redshift" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="880" y="1550" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-10" value="ColumnarDB like AWS RedShift/Cassandra/HBase can be used here which is suitable for Aggragated data like states dat and is highly available.&amp;nbsp;&lt;br&gt;This could va" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="800" y="1644" width="295" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOeL2surBHHwKXs4Aca-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="j2APJOWUcB2eC5ujGrEf-13" target="dQOeL2surBHHwKXs4Aca-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j2APJOWUcB2eC5ujGrEf-13" value="AWS SNS" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="490" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOeL2surBHHwKXs4Aca-0" value="Kafka Streams&amp;nbsp; do not have high latency, so if latency is the issue than always use Kafka Streams but integration with other systems is not very good, so use Spark Streaming if latency is not of much concern." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="880" y="840" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOeL2surBHHwKXs4Aca-1" value="Kafka Streams&amp;nbsp; do not have high latency compared to Spark Stream and latency is clearly an issue so, we can make use of Kaka Stream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="560" y="1260" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOeL2surBHHwKXs4Aca-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="lOcqwodJk-4RlRtHzEKS-1" source="dQOeL2surBHHwKXs4Aca-5" target="j2APJOWUcB2eC5ujGrEf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOeL2surBHHwKXs4Aca-5" value="Raise Alarm" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="638" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQOeL2surBHHwKXs4Aca-8" value="Law Officers" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=1;" vertex="1" parent="lOcqwodJk-4RlRtHzEKS-1">
+          <mxGeometry x="300" y="1690" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
