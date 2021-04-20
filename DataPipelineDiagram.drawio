@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T05:52:32.044Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="j2sLGtjlFZ8dgLP3y5xp" version="14.5.10" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-04-20T06:13:17.606Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="uqkcZX9TIuzOtNs-z5DI" version="14.5.10" type="github" pages="5">
   <diagram name="ExamCopy" id="APzfpvWsl1Z9vvSuLqmT">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,16 +188,16 @@
         <mxCell id="YF0CPLprW75edrQH-U4y-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-53" target="YF0CPLprW75edrQH-U4y-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YF0CPLprW75edrQH-U4y-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-53" target="YF0CPLprW75edrQH-U4y-63">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="670" y="740" />
-              <mxPoint x="860" y="740" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="YF0CPLprW75edrQH-U4y-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-53" target="YF0CPLprW75edrQH-U4y-73">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zOpQxGvA1TDJtgS3TWw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-53" target="YF0CPLprW75edrQH-U4y-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="720" />
+              <mxPoint x="810" y="720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YF0CPLprW75edrQH-U4y-53" value="Kafka Cluster" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
           <mxGeometry x="610" y="640" width="120" height="60" as="geometry" />
@@ -225,14 +225,19 @@
             <mxPoint x="940" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YF0CPLprW75edrQH-U4y-61" value="Spark/AWS Glue Processing and Transformation for incidents" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+        <mxCell id="8zOpQxGvA1TDJtgS3TWw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-61" value="SparkStreaming Live data analysis" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
           <mxGeometry x="780" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YF0CPLprW75edrQH-U4y-62" value="Transformations like handling NaN values etc&lt;br&gt;Analog Analytics&lt;br&gt;Text analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
           <mxGeometry x="783" y="580" width="137" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YF0CPLprW75edrQH-U4y-63" value="ElasticSearch ELK&lt;br&gt;For Real time Incidents Visualization" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
-          <mxGeometry x="800" y="775" width="120" height="80" as="geometry" />
+          <mxGeometry x="750" y="775" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YF0CPLprW75edrQH-U4y-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-65" target="YF0CPLprW75edrQH-U4y-53">
           <mxGeometry relative="1" as="geometry" />
