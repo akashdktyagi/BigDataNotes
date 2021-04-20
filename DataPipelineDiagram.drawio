@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T05:21:01.450Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="LSVwbptALDbUIXhHC3yl" version="14.5.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-20T05:21:13.024Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="706pkfmoQelt0HXrCUzr" version="14.5.10" type="github" pages="4">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -286,7 +286,7 @@
           <mxGeometry x="110" y="345" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9lhsWO-V5EIX8ggLbWEE-6" value="&lt;h1&gt;CAP Theoram:AP&lt;/h1&gt;&lt;p&gt;-Casandra is a AP system.&lt;/p&gt;&lt;p&gt;-It has master less archs. i.e. read write can happen from any node.&lt;/p&gt;&lt;p&gt;- Because of this reason system will always be Available even though some nodes are down.&lt;/p&gt;&lt;p&gt;- However, system will not have immediate consistency as it will take some time to copy the state of DB from one node to another. But it has a promise of eventual consistency.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="3UqN9f_yNtxF5DANuFR4-1">
-          <mxGeometry x="320" y="290" width="380" height="190" as="geometry" />
+          <mxGeometry x="330" y="290" width="380" height="190" as="geometry" />
         </mxCell>
         <UserObject label="&amp;nbsp;&lt;b&gt;Link: &lt;/b&gt;https://www.ibm.com/cloud/learn/cap-theorem" link="https://www.ibm.com/cloud/learn/cap-theorem" id="9lhsWO-V5EIX8ggLbWEE-9">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="3UqN9f_yNtxF5DANuFR4-1">
