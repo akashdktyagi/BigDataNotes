@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T05:21:13.024Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="706pkfmoQelt0HXrCUzr" version="14.5.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-20T05:28:07.934Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="vqK16exszqXdR3YgMcfF" version="14.5.10" type="github" pages="4">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -291,6 +291,23 @@
         <UserObject label="&amp;nbsp;&lt;b&gt;Link: &lt;/b&gt;https://www.ibm.com/cloud/learn/cap-theorem" link="https://www.ibm.com/cloud/learn/cap-theorem" id="9lhsWO-V5EIX8ggLbWEE-9">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="3UqN9f_yNtxF5DANuFR4-1">
             <mxGeometry x="20" y="10" width="300" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="9lhsWO-V5EIX8ggLbWEE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.411;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3UqN9f_yNtxF5DANuFR4-1" source="9lhsWO-V5EIX8ggLbWEE-10" target="9lhsWO-V5EIX8ggLbWEE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9lhsWO-V5EIX8ggLbWEE-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3UqN9f_yNtxF5DANuFR4-1" source="9lhsWO-V5EIX8ggLbWEE-10" target="9lhsWO-V5EIX8ggLbWEE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9lhsWO-V5EIX8ggLbWEE-10" value="CockroachDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=1;" vertex="1" parent="3UqN9f_yNtxF5DANuFR4-1">
+          <mxGeometry x="100" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9lhsWO-V5EIX8ggLbWEE-11" value="&lt;h1&gt;CAP Theoram: CP but HA&lt;/h1&gt;&lt;p&gt;-CockroachDB is also a CP system but with High Availability&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="3UqN9f_yNtxF5DANuFR4-1">
+          <mxGeometry x="320" y="520" width="380" height="90" as="geometry" />
+        </mxCell>
+        <UserObject label="https://www.cockroachlabs.com/docs/stable/frequently-asked-questions.html#how-is-cockroachdb-both-highly-available-and-strongly-consistent" link="https://www.cockroachlabs.com/docs/stable/frequently-asked-questions.html#how-is-cockroachdb-both-highly-available-and-strongly-consistent" id="9lhsWO-V5EIX8ggLbWEE-12">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="3UqN9f_yNtxF5DANuFR4-1">
+            <mxGeometry x="245" y="620" width="550" height="40" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
