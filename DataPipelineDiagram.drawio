@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T06:22:01.095Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="LEFVhIMFKGev9OsEX7HN" version="14.5.10" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-04-20T06:23:14.940Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="63a8AhWKKC3qS8jeOm-G" version="14.5.10" type="github" pages="5">
   <diagram name="ExamCopy" id="APzfpvWsl1Z9vvSuLqmT">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,8 +273,8 @@
         <mxCell id="YF0CPLprW75edrQH-U4y-73" value="KSQL can also be used to Query Streaming Data in Kafak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
           <mxGeometry x="605" y="900" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="8zOpQxGvA1TDJtgS3TWw-5" value="Kafka Streams&amp;nbsp; do not have high latency, so if latency is the issue than always use Kafka Streams&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
-          <mxGeometry x="880" y="840" width="250" height="50" as="geometry" />
+        <mxCell id="8zOpQxGvA1TDJtgS3TWw-5" value="Kafka Streams&amp;nbsp; do not have high latency, so if latency is the issue than always use Kafka Streams but integration with other systems is not very good, so use Spark Streaming if latency is not of much concern." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="880" y="840" width="250" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
