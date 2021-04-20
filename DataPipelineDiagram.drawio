@@ -1,4 +1,276 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T05:51:08.961Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="FyQBn6wNH0zCe6qfp9ej" version="14.5.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-20T05:52:32.044Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="j2sLGtjlFZ8dgLP3y5xp" version="14.5.10" type="github" pages="5">
+  <diagram name="ExamCopy" id="APzfpvWsl1Z9vvSuLqmT">
+    <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="YF0CPLprW75edrQH-U4y-0" />
+        <mxCell id="YF0CPLprW75edrQH-U4y-1" parent="YF0CPLprW75edrQH-U4y-0" />
+        <mxCell id="YF0CPLprW75edrQH-U4y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-5" target="YF0CPLprW75edrQH-U4y-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-3" value="Statefull events" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YF0CPLprW75edrQH-U4y-2">
+          <mxGeometry x="-0.2963" y="3" relative="1" as="geometry">
+            <mxPoint x="12" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-5" target="YF0CPLprW75edrQH-U4y-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-5" value="InformationAPP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="210" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-6" value="&lt;h1&gt;Policing System - Data Pipeline&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="35" y="30" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-9" target="YF0CPLprW75edrQH-U4y-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-8" value="CockroachDB&lt;br&gt;Kafka&lt;br&gt;Connector" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YF0CPLprW75edrQH-U4y-7">
+          <mxGeometry x="-0.1467" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-9" value="CockroachDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="428" y="300" width="102" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-11" target="YF0CPLprW75edrQH-U4y-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-11" value="Law officer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="50" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-13" target="YF0CPLprW75edrQH-U4y-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="380" />
+              <mxPoint x="100" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-13" value="Survivour" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="40" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-15" target="YF0CPLprW75edrQH-U4y-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="480" />
+              <mxPoint x="130" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-15" value="Volunteer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="40" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-16" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Why CockroachDB?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Allows Horizontal Scaling;Can resolve Slowness;&lt;/div&gt;&lt;div&gt;2. Automatic Fail Over due to distributed SQL&lt;/div&gt;&lt;div&gt;3. Immediate Consistency&lt;/div&gt;&lt;div&gt;4. RDBMS like Structure, so impl will higher adaptability among the developers.&lt;/div&gt;&lt;div&gt;5. Key Value store is inherently faster, so should solve the slowness issue.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="400" y="105" width="310" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-18" target="YF0CPLprW75edrQH-U4y-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="330" />
+              <mxPoint x="870" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-18" value="Kafka Cluster" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="680" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-20" target="YF0CPLprW75edrQH-U4y-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-20" value="Data Lake&lt;br&gt;(AWS S3)" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="927" y="280" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-21" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;- Maintaining Data lake in the form of AWS S3 to dump all the data from multiple streams and sources.&amp;nbsp;&lt;/p&gt;&lt;p&gt;- This will not burden the Data ware house which will only have multi dimensional fact tables and dimension tables for easy consumption.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="1083" y="280" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-22" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Why AWS S3?&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Making use of AWS S3 instead of HDFS since AWS S3 is cloud managed service and is elastic in nature. Since, we are looking at lot of data being generated from live feeds of camera, audio, files being generated; it is better to have a scalable storage which requires minimum handling of the servers.&lt;/p&gt;&lt;p&gt;Other than that, S3 can be secured better compared to typical on premise servers. AWS provides, firewalls, encryption at rest as well as transit; which are resource intensive when it comes to managing it n HDFS&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="790" y="80" width="460" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-24" target="YF0CPLprW75edrQH-U4y-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-24" value="Splunk/Logs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="517.5" y="410" width="75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-26" target="YF0CPLprW75edrQH-U4y-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="849" y="450" />
+              <mxPoint x="849" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-26" value="Logs Ingestion Service" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="690" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-29" target="YF0CPLprW75edrQH-U4y-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-29" target="YF0CPLprW75edrQH-U4y-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-29" value="Incident APP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="130" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-32" target="YF0CPLprW75edrQH-U4y-55">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1002" y="1005" />
+              <mxPoint x="580" y="1005" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.783;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-32" target="YF0CPLprW75edrQH-U4y-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="731" />
+              <mxPoint x="1040" y="830" />
+              <mxPoint x="1260" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-32" value="Datawarehouse&lt;br&gt;ColumnarDB&lt;br&gt;(AWS Redshift /Cassandra)" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="942" y="605" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.033;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-34" target="YF0CPLprW75edrQH-U4y-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-34" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;p&gt;&lt;span&gt;Schema of Fact Tables and Dimension Tables has to be defined.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;We can go with simple Star Schema for DataWare house.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;This will help us getting results about the queries of incidents, across regions. This solves the IncidentAPP issues about slowness in getting incident related analytical insights.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="1062" y="609" width="270" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-36" target="YF0CPLprW75edrQH-U4y-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-36" value="Processing/ETL&lt;br&gt;(Spark/AWS Glue)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="942" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-37" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;- Processing is to be done here to generate fact and dimension tables.&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Data generated from IncidentAPP has to be processed and re-arranged to give faster query results for number of incidents, and different fact table and dimension table arrangements.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="1070" y="440" width="313" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-38" value="&lt;b&gt;Fact Table&lt;br&gt;&lt;/b&gt;IncidentsNumbers&lt;br&gt;Region" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="1370" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.417;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-40" target="YF0CPLprW75edrQH-U4y-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-40" value="&lt;b&gt;DimensionTable&lt;/b&gt;&lt;br&gt;Country&lt;br&gt;Cities&lt;br&gt;Pincocde" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="1510" y="574.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-42" target="YF0CPLprW75edrQH-U4y-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-42" value="&lt;b&gt;DimensionTable&lt;/b&gt;&lt;br&gt;Incident_ID&lt;br&gt;Incident_Details&lt;br&gt;Incident_Victim&lt;br&gt;Incident_Preprator" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="1504" y="655" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-45" target="YF0CPLprW75edrQH-U4y-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-44" value="Kafka Connector &lt;br&gt;for MongoDB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YF0CPLprW75edrQH-U4y-43">
+          <mxGeometry x="0.3889" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-45" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="348" y="790" width="102" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-47" target="YF0CPLprW75edrQH-U4y-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-47" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Using DocumentDB here because:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Benefit from MongoDB no SQL inherent horizontal scaling issues.&lt;/div&gt;&lt;div&gt;2. IncidentAPP can have lot of data from various sources; so it could really require varied attributes for different incidents. So schema less is advantages here.&lt;/div&gt;&lt;div&gt;3. MongoDB can also store unstructured data&amp;nbsp; and files , and incident app apparantly generates lot of unstrucured data as well.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="240" y="910" width="313" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-49" target="YF0CPLprW75edrQH-U4y-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-49" value="&lt;b&gt;CollectLogs:&lt;/b&gt; Need to Store log data as it is advisable to collect all the data and dump in data lake so that later it can be made use of for anayltics lilke how many users using it , at what point in time and for how long for each function. This may not be necessary for now but later can be usefull; so better to collect and dump in data lake." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="184" y="480" width="266" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-53" target="YF0CPLprW75edrQH-U4y-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-53" target="YF0CPLprW75edrQH-U4y-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="740" />
+              <mxPoint x="860" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-53" target="YF0CPLprW75edrQH-U4y-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-53" value="Kafka Cluster" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="610" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-55" target="YF0CPLprW75edrQH-U4y-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-55" value="IncidentsQueryAPI for Aggregate Queries" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="480" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.033;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-57" target="YF0CPLprW75edrQH-U4y-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-57" value="&lt;h1&gt;Consideration:&lt;/h1&gt;&lt;div&gt;This API is required to fetch the Query details related to incidents.&amp;nbsp;&lt;/div&gt;&lt;div&gt;In the Dataware house, since we have created Fact Tables linked with Dimension tables, it will be pretty speedy to get these details and display in the app.&lt;/div&gt;&lt;div&gt;A new microservice can be used, which Incident Front end App will call when ever it requires data.&amp;nbsp;&lt;/div&gt;&lt;div&gt;This approach should be pretty fast.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Another reason it is advisable to have this approach is because this will &lt;b&gt;not burden the production DB&lt;/b&gt; in this case MongoDB. These incidents related queries are aggregated queries can directly be handled from Dataware house where they are already processed and managed in multidimensions using fact and dimension tables.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="690" y="1060" width="420" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-58" value="Send incident related information to data warehouse at real time for processing, so that incident related data can be computed and arranged for analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="488" y="585.5" width="270" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-59" value="Visualization" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="1170" y="940" width="180" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-61" value="Spark/AWS Glue Processing and Transformation for incidents" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="780" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-62" value="Transformations like handling NaN values etc&lt;br&gt;Analog Analytics&lt;br&gt;Text analysis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="783" y="580" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-63" value="ElasticSearch ELK&lt;br&gt;For Real time Incidents Visualization" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="800" y="775" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-65" target="YF0CPLprW75edrQH-U4y-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-65" value="3 Replicas with at least 24 hr retention.&lt;br&gt;Delivery gurantee to be set as&amp;nbsp; &amp;nbsp;&quot;at least once&quot;&lt;br&gt;so that no incident is missed; duplicates can be taken care at the next level which is transformation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="480" y="730" width="185" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-66" value="&lt;h1&gt;Other Considerations:&lt;/h1&gt;&lt;p&gt;Auditing: How close to the reality our data analysis is&lt;/p&gt;&lt;p&gt;Security: Masking, Authentication&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="170" y="1230" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-68" value="ConnectAPP" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="160" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YF0CPLprW75edrQH-U4y-1" source="YF0CPLprW75edrQH-U4y-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-70" value="SparkStreaming" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="428" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-71" value="For live Analysis of Data&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="370" y="1500" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-72" value="Raise Alarm" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="690" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YF0CPLprW75edrQH-U4y-73" value="KSQL can also be used to Query Streaming Data in Kafak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="YF0CPLprW75edrQH-U4y-1">
+          <mxGeometry x="605" y="900" width="270" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,8 +290,8 @@
         <mxCell id="M00Jkyyd9K6bwBccqDg0-53" value="InformationAPP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M00Jkyyd9K6bwBccqDg0-54" value="&lt;h1&gt;Policing System&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="160" y="220" width="370" height="40" as="geometry" />
+        <mxCell id="M00Jkyyd9K6bwBccqDg0-54" value="&lt;h1&gt;Policing System Datapipline&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M00Jkyyd9K6bwBccqDg0-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M00Jkyyd9K6bwBccqDg0-55" target="M00Jkyyd9K6bwBccqDg0-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
