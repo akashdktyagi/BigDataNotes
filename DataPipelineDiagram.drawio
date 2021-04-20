@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T05:28:07.934Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="vqK16exszqXdR3YgMcfF" version="14.5.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-20T05:51:08.961Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="FyQBn6wNH0zCe6qfp9ej" version="14.5.10" type="github" pages="4">
   <diagram id="86TCpwpJEMBFlHIx1PRZ" name="Page-1">
     <mxGraphModel dx="1282" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,6 +196,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="SPkuPFHy3vh_rZcVOL5i-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7txRCt_JXUs7RKzOq8Ak-8" target="SPkuPFHy3vh_rZcVOL5i-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7txRCt_JXUs7RKzOq8Ak-8" value="Kafka Cluster" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="640" width="120" height="60" as="geometry" />
         </mxCell>
@@ -261,6 +264,9 @@
         </mxCell>
         <mxCell id="II3lYOn81gBue7E85nwl-6" value="Raise Alarm" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPkuPFHy3vh_rZcVOL5i-1" value="KSQL can also be used to Query Streaming Data in Kafak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="900" width="270" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
